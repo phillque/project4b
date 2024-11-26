@@ -1,0 +1,151 @@
+
+        body {
+            background-color: rgb(98, 98, 98);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 100%;
+            line-height: 1.3em;
+            margin: 150;
+            padding: 75px;
+            max-width: 1000px;
+            text-align: left
+    }
+        
+        header{ 
+        text-align: center;
+        padding: 20px;
+        color: tomato;
+        font-family: "marko one", serif;
+        font-size: 2em; 
+    }
+        
+    #info, #Pasta, #Sauce, #Mix, #Garnish, #Beef{
+        margin:20px 0;
+        padding: 15px;
+        border: 1px solid #000000;
+    }
+        
+    h1 {font-family: "Marko one",georgia,serif;
+    font-size: 1.5em;
+    font-weight:bold;
+    color:tomato;
+    text-shadow: .05em .05em .1em #fbfdff;
+    text-align: center;
+        
+    }
+    
+    h2 {
+        font-size: 1em;
+        text-align:center;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        color:tomato
+     }
+
+
+ h3 {
+        font-size: 1.5em;
+        text-align:center;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        color:tomato
+     }
+    h2+p{ 
+        text-align:center;
+        font-style: italic;
+        color: white; 
+    }
+    
+    p{
+        text-align:center;
+        font-style: italic;
+        font-weight: bolder; 
+        color: tomato;
+            
+        }
+     
+    dt strong { color: #f7f2f2;
+    }
+        
+    dt { font-weight:bold;
+                color: #db2020; 
+    }
+    
+    #info p{
+        font-style:italic;
+    }
+    
+ 
+    
+    #friends p{
+        font-style:italic;
+    }
+        
+    #Munchkins p{
+        font-style:italic;
+    }
+        
+    #Scarecrow p{
+        font-style:italic;
+    }
+        
+        
+    
+    .price{ 
+    font-family:georgia, serif;
+    font-style: italic; 
+    color:#fa0303;
+    }
+    
+    .label{
+    font-weight:bold;
+    font-variant:small-caps;
+    font-style:normal;
+    }
+    
+    ul li{
+            list-style-type:square;
+            margin-bottom: 5px;
+            color: white;
+        }
+    
+    p.warning, sup { 
+    font-size: small;
+    color: red;
+    }
+    
+    img{
+        max-width: 200%;
+        height: auto;
+        margin-right: 20px;
+        margin-top: 10px;
+        float: initial;
+        clear:both;
+     }
+        .clearfix:after{
+            content:"";
+            display: table;
+            clear:both; 
+    }   
+        section, footer{ 
+        max-width: 1000px;
+        margin: 21px;
+        padding: 20px; 
+        background: rgb(10, 0, 0);
+        border-radius: 8px;
+        color: #f7f7f7;
+    }
+        
+    footer{ 
+        text-align: center;
+        margin-top:20px;
+        font-size: 0.8em;
+        color:gray;
+        }
+cite{
+    margin-right: 20px; 
+}
+
+.text-container {
+    max-width: 40em;
+    margin: 0 auto; 
+}
